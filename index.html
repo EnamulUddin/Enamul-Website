@@ -12,7 +12,6 @@
         body {
             font-family: 'Mukta', sans-serif;
             background-color: #f8f9fa;
-            padding-top: 70px; /* Add padding to body to accommodate fixed navbar */
         }
 
         .navbar {
@@ -84,33 +83,10 @@
             margin-bottom: 20px;
         }
 
-        .opening-hours-address {
-            max-width: 80%;
-            margin: 0 auto;
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        .opening-hours, .address {
-            border: 4px solid #ccc; 
-            border-radius: 20px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .opening-hours h3, .address h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-            color: #333;
-            text-align: center; 
-        }
-
-        .opening-hours p, .address p {
-            font-size: 18px;
-            margin-bottom: 5px;
-            color: #666;
-            text-align: center; 
+        @media (max-width: 767.98px) {
+            .col-md-6 {
+                padding: 0;
+            }
         }
     </style>
 </head>
@@ -167,7 +143,7 @@
                 </div>
             </div>
             <div class="col-md-6" style="padding-left: 10px;">
-                <img src="https://www.freecodecamp.org/news/content/images/2021/08/vscode.png" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb img-fluid rounded" style="max-width: 105%; height: auto; border-radius: 10px; max-height: 500px;" alt="10 VS Code Extensions to Increase Your Productivity" jsname="kn3ccd" data-iml="7345.100000000093" aria-hidden="false">
+                <img src="https://www.freecodecamp.org/news/content/images/2021/08/vscode.png" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb img-fluid rounded" style="max-width: 100%; height: auto; border-radius: 10px; max-height: 500px;" alt="10 VS Code Extensions to Increase Your Productivity" jsname="kn3ccd" data-iml="7345.100000000093" aria-hidden="false">
             </div>   
         </div>
     </div>
