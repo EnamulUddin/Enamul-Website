@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Enamul Uddin - Web Designer Blog</title>
     <meta name="description" content="Personal blog of Enamul Uddin, a skilled web designer and developer.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -84,8 +84,26 @@
         }
 
         @media (max-width: 767.98px) {
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .jumbotron {
+                padding: 50px 0;
+            }
+
+            .blog-post {
+                padding: 20px;
+            }
+
             .col-md-6 {
                 padding: 0;
+                margin-bottom: 30px;
+            }
+
+            .blog-post img {
+                margin-bottom: 10px;
             }
         }
     </style>
